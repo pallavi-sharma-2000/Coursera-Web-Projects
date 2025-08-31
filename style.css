@@ -1,0 +1,102 @@
+* {
+    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+body {
+    background-color: #ffffff;
+}
+
+h2, .title {
+    text-align: center;
+}
+
+.menus {
+    margin:30px 20px 20px 20px;
+}
+
+.menu-card {
+    float:left;
+    width:33%;
+    margin-left: 20px;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    background-color: rgba(153,153,153,255);
+}
+
+.title {
+    width:28%;
+    border:2px solid black;
+    border-width: 0px 0px 2px 2px;
+    float:right;
+    margin: 0px;
+    
+}
+
+.chicken {
+    background-color: rgba(213,152,152,255);
+    color:black;
+}
+
+.beef {
+    background-color: rgba(193,69,67,255);
+    color:white;
+}
+
+.sushi {
+    background-color: rgba(229,209,152,255);
+    color: black;
+}
+
+.content {
+    clear: right;
+    margin-top:15px;
+    padding:10px;
+    text-align: justify;
+}
+
+
+@media (min-width:992px){
+    .menu-card {
+        width:31%;
+        height:fit-content;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px){
+    .menu-card {
+        width: 46.5%;
+        height:200px;
+    }
+
+    .last-child {
+        width:95% !important;
+    }
+}
+
+@media (max-width:767px){
+    .menu-card{
+        width:95%;
+        height:200px;
+    }
+
+}
+
+
+
+
+
+
+   
+/*menu color
+background-color: rgba(153,153,153,255);*/
+
+/*chicken
+background-color: rgba(213,152,152,255);*/
+
+/*beef
+background-color: rgba(193,69,67,255);*/
+
+/*sushi
+background-color: rgba(229,209,152,255);*/
